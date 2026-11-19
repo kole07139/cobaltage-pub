@@ -3,11 +3,11 @@ ALL RIGHTS RESERVED
 
 Copyright (c) 2026 Kole07139. All rights reserved.
 
-This is a custom proprietary license for Just Redstone Waterlog. It is not an open-source license. No rights are granted except the limited permission expressly stated below. Nothing in this license limits rights or exceptions that cannot lawfully be waived or restricted.
+This is a custom proprietary license for Cobalt Age. It is not an open-source license. No rights are granted except the limited permission expressly stated below. Nothing in this license limits rights or exceptions that cannot lawfully be waived or restricted.
 
 1. MATERIALS COVERED
 
-“Cobalt Age” (or known as CA) means the original software project and its components created for Cobalt Age, including source code, compiled binaries, artwork, graphics, documentation, project name, logos, and branding. Third-party components are excluded and remain governed by their own licenses.
+“Cobalt Age” (or known as CA) means the original software project and its components created for Cobalt Age, including source code, compiled binaries, artwork, graphics, documentation, project name, logos, and branding. Third-party components are excluded and remain governed by their own licenses; they are listed in Section 12.
 
 2. COPYRIGHT AND OTHER RIGHTS
 
@@ -21,6 +21,8 @@ Subject to this license and applicable platform terms, an individual may downloa
 
 This permission is non-exclusive, non-transferable, and limited to use of an unmodified official release. It does not grant ownership, source-code access, redistribution rights, modification or derivative-work rights, sublicensing rights, or commercial-use rights.
 
+The public availability of source code, assets, or other materials of Cobalt Age (for example in a public repository or inside a released file) does not grant any right to use, copy, modify, extract, or redistribute them.
+
 4. OFFICIAL SOURCE AND SHARING
 
 The sole authorized public project page and download source designated by the rights holder is:
@@ -29,7 +31,11 @@ https://modrinth.com/mod/cobalt-age
 
 Share Cobalt Age by linking to that page. You may refer to Cobalt Age in reviews, guides, discussions, or server instructions only if you credit Kole07139, link to the official project page, and do not imply that you created, distribute, endorse, or are affiliated with Cobalt Age.
 
-A project listing or modpack manifest may reference the official Modrinth page, but must not include or rehost Cobalt Age files unless the rights holder has given written permission.
+Modpacks: Cobalt Age may be part of a modpack only if all of the following conditions are met:
+(a) the modpack is published on Modrinth and is free of charge;
+(b) Cobalt Age is referenced as a dependency downloaded from the official Modrinth project, and its files are not embedded, included, or rehosted;
+(c) the modpack description links directly to the official project page indicated above.
+Modpacks published on any other platform, and any other inclusion of Cobalt Age files, require prior written permission from the rights holder.
 
 5. RESTRICTIONS
 
@@ -37,7 +43,7 @@ Except with prior, explicit written permission from the rights holder, or where 
 
 (a) reproduce, reupload, mirror, host, publish, distribute, or otherwise make available Cobalt Age or copies of it;
 (b) modify, adapt, translate, decompile, or create derivative works from Cobalt Age, except to the extent a non-waivable statutory exception applies;
-(c) bundle or include Cobalt Age binaries in a modpack, launcher, installer, standalone distribution, or other package;
+(c) bundle or include Cobalt Age binaries or assets in a modpack, launcher, installer, standalone distribution, or other package, except for Modrinth modpacks meeting the conditions in Section 4;
 (d) rename, repackage, or distribute modified, unofficial, or falsely represented builds;
 (e) replace, obscure, or redirect the official download to a third-party download service, mirror, file host, or URL shortener;
 (f) sell, license, paywall, or otherwise commercially exploit Cobalt Age or copies of it, including through paid distributions, monetized services, sponsored downloads, advertisements, affiliate links, or similar schemes; or
@@ -63,18 +69,51 @@ This license is subject to applicable law, including non-waivable statutory righ
 
 10. PERMISSION REQUESTS
 
-For written permission or licensing inquiries, contact the rights holder through the official Cobalt Age project page:
+For written permission or licensing inquiries, contact the rights holder through the official Cobalt Age project page, or through the Discord server linked from it:
 
 https://modrinth.com/mod/cobalt-age
 
-11. PAST DEVELOPERS
+In this license, "written permission" means a formal written authorization, digitally signed by the rights holder (Kole07139). Informal messages or verbal consent do not constitute written permission.
 
-Since the version 1.2.2 (included) past developers' code has been completely eliminated and substituted. Past developer including and after release 1.2.2 are not credited in the project, since there is no code done by them anymore. Namely, their code is no longer present in the project after and including 1.2.2.
-Past developers are NOT able to apply for any kind of warranty, credit or authorship anymore, since they are not part of this project and they do not detain a single line of code of this project, after and including version 1.2.2.
-However, the project BEFORE and included version 1.2.0 was published with another license, which was GPL-3.0, and past developers are credited in that version of the project, which is still available on the old discontinued project page. The official page since and including version 1.2.2 is only https://modrinth.com/mod/cobalt-age.
-The rights holder (Kole07139) was a co-author with a former other co-author, known as Past Developer. The rights holder always had a substantial part in the project since the start. The other past developer indeed did not contribute significantly and because of not requiring the necessary skills and because of rude behaviours, was fully removed after and including version 1.2.2 in everything they wrote in the project.
-The rights holder (Kole07139) has full ownership of the project and its codebase after and included version 1.2.2 (100%).
+11. PRIOR VERSIONS
+
+Versions of Cobalt Age up to and including 1.2.0 were released under the GNU General Public License v3.0 (GPL-3.0) together with a former co-author. Those releases remain available under that license, with their original credits, on the former project page.
+
+Starting from version 1.2.2, all code and assets contributed by former co-authors have been removed or rewritten from scratch. Version 1.2.2 and later, excluding the third-party components listed in Section 12, are authored and owned solely by Kole07139 and are distributed only under this license, from the official source in Section 4.
+
+12. THIRD-PARTY COMPONENTS
+
+The following components are not covered by this license and are used under their own terms.
+
+(a) Alternate Current, by Space Walker (https://github.com/SpaceWalkerRS/alternate-current). Parts of the cobalt wire update algorithm are derived from it and are used under the following license:
+
+    MIT License
+
+    Copyright (c) 2022 Space Walker
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+(b) Vanilla Tweaks (https://vanillatweaks.net/). The models of the optional built-in resource packs "3D Cobalt Rails" and "Cobalt Wire Power Level" are modified versions of Vanilla Tweaks resource packs, used and shared free of charge under the Vanilla Tweaks terms (https://vanillatweaks.net/terms/).
+
+    Credits:
+    Vanilla Tweaks: https://vanillatweaks.net/
 
 
 
-Cobalt Age is free to download from its official source. It is not licensed for redistribution, reuploading, modification for distribution, bundling, resale, or commercial exploitation without prior written permission.
+Cobalt Age is free to download from its official source. It is not licensed for redistribution, reuploading, modification for distribution, bundling (except for Modrinth modpacks as allowed in Section 4), resale, or commercial exploitation without prior written permission.
